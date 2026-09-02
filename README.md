@@ -15,12 +15,12 @@ The goal is to show how asynchronous programming can reduce wait times and scale
 ## How to Test
 
 1. Clone the repo:
-   ```bash
+   
    git clone https://github.com/Stevmong/python-async-devops-lab.git
    cd python-async-devops-lab
 
 
-2-Create a virtual environment, Install dependencies with pip install -r requirements.txt.
+2. Create a virtual environment, Install dependencies with pip install -r requirements.txt.
 
 python3 -m venv venv
 
@@ -31,20 +31,20 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-3-Run FastAPI:
+3. Run FastAPI:
 
 uvicorn main:app --reload
 
 
 
-4-Test endpoints:
+4. Test endpoints:
 
 http://127.0.0.1:8000/ping → returns {"message":"pong"}
 
 http://127.0.0.1:8000/health → returns uptime and status
 
 
-5-Run monitoring script:
+5. Run monitoring script:
 
 bash
 
