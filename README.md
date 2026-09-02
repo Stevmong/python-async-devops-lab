@@ -1,6 +1,16 @@
 # Async DevOps Lab
 
-Python scripts and FastAPI service demonstrating async/await for monitoring and automation.
+This project demonstrates how to use Python's `async/await` to build efficient monitoring and automation workflows.  
+It includes a FastAPI service with `/ping` and `/health` endpoints, plus scripts that poll multiple endpoints concurrently.  
+The goal is to show how asynchronous programming can reduce wait times and scale monitoring across many systems.
+
+## Features
+- **[FastAPI service](ca://s?q=Build_FastAPI_service_with_async)** with `/ping` and `/health` endpoints.
+- **[Async basics](ca://s?q=Python_async_basics)**: simple coroutines with `async def` and `await`.
+- **[Concurrent tasks](ca://s?q=Run_multiple_async_tasks_in_Python)** using `asyncio.gather`.
+- **[Async HTTP requests](ca://s?q=Async_HTTP_requests_in_Python)** with aiohttp.
+- **[Monitoring script](ca://s?q=Async_polling_multiple_VM_endpoints)** that polls endpoints concurrently, simulating DevOps health checks.
+
 
 ## How to Test
 
