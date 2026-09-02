@@ -23,7 +23,11 @@ The goal is to show how asynchronous programming can reduce wait times and scale
 2-Create a virtual environment, Install dependencies with pip install -r requirements.txt.
 
 python3 -m venv venv
+
+
 source venv/bin/activate
+
+
 pip install -r requirements.txt
 
 
@@ -33,13 +37,15 @@ uvicorn main:app --reload
 
 
 
-Test endpoints:
+4-Test endpoints:
 
 http://127.0.0.1:8000/ping → returns {"message":"pong"}
 
 http://127.0.0.1:8000/health → returns uptime and status
 
-Run monitoring script:
+
+5-Run monitoring script:
 
 bash
+
 python3 health_check.py
